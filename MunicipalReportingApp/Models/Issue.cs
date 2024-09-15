@@ -12,7 +12,7 @@ namespace MunicipalReportingApp
         public string Location { get; set; }
         public string Category { get; set; }
         public string Description { get; set; }
-        public string MediaPath { get; set; }  // Path to attached media
-        public DateTime ReportedAt { get; set; }  // Date and time of the report
+        public DateTime ReportedAt { get; set; }
+        public string MediaPath { get; set; } // Supports both media and document attachments
     }
 }

@@ -64,8 +64,16 @@ namespace MunicipalReportingApp
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // Optional: You can also assign event handlers here if needed
-            // button1.Click += new EventHandler(button1_Click);
+
+        }
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
